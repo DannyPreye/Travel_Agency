@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel_Agency/static/css/main.b89d2a33.css",
-    "main.js": "/Travel_Agency/static/js/main.1eddf111.js",
+    "main.css": "/Travel_Agency/static/css/main.d7fcc6d8.css",
+    "main.js": "/Travel_Agency/static/js/main.1e318c25.js",
     "static/media/mountain_res.jpg": "/Travel_Agency/static/media/mountain_res.e0ff4cc757be20a10141.jpg",
     "static/media/resort-nature.jpg": "/Travel_Agency/static/media/resort-nature.f0d9bac3c781792f4d18.jpg",
     "static/media/resort-island.jpg": "/Travel_Agency/static/media/resort-island.2f84dee47b7389b50251.jpg",
@@ -13,11 +13,11 @@
     "static/media/mountain_freeze.jpg": "/Travel_Agency/static/media/mountain_freeze.5db940cadcc11c62dc47.jpg",
     "static/media/map.png": "/Travel_Agency/static/media/map.7ed13137d13ce3d95647.png",
     "index.html": "/Travel_Agency/index.html",
-    "main.b89d2a33.css.map": "/Travel_Agency/static/css/main.b89d2a33.css.map",
-    "main.1eddf111.js.map": "/Travel_Agency/static/js/main.1eddf111.js.map"
+    "main.d7fcc6d8.css.map": "/Travel_Agency/static/css/main.d7fcc6d8.css.map",
+    "main.1e318c25.js.map": "/Travel_Agency/static/js/main.1e318c25.js.map"
   },
   "entrypoints": [
-    "static/css/main.b89d2a33.css",
-    "static/js/main.1eddf111.js"
+    "static/css/main.d7fcc6d8.css",
+    "static/js/main.1e318c25.js"
   ]
 }
