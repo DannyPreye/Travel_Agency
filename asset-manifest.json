@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Travel_Agency/static/css/main.b89d2a33.css",
+    "main.js": "/Travel_Agency/static/js/main.1eddf111.js",
+    "static/media/mountain_res.jpg": "/Travel_Agency/static/media/mountain_res.e0ff4cc757be20a10141.jpg",
+    "static/media/resort-nature.jpg": "/Travel_Agency/static/media/resort-nature.f0d9bac3c781792f4d18.jpg",
+    "static/media/resort-island.jpg": "/Travel_Agency/static/media/resort-island.2f84dee47b7389b50251.jpg",
+    "static/media/passes.jpg": "/Travel_Agency/static/media/passes.55d5cf85b23b46202606.jpg",
+    "static/media/resort-sk.jpg": "/Travel_Agency/static/media/resort-sk.a9286509819682c35890.jpg",
+    "static/media/mainBg.jpg": "/Travel_Agency/static/media/mainBg.9bc6f7066aee88369a5e.jpg",
+    "static/media/mountain_fuji.jpg": "/Travel_Agency/static/media/mountain_fuji.8bbf166713089a8e3538.jpg",
+    "static/media/resort-winter.jpg": "/Travel_Agency/static/media/resort-winter.30b920c9b1b0dee12aa0.jpg",
+    "static/media/mountain_freeze.jpg": "/Travel_Agency/static/media/mountain_freeze.5db940cadcc11c62dc47.jpg",
+    "static/media/map.png": "/Travel_Agency/static/media/map.7ed13137d13ce3d95647.png",
+    "index.html": "/Travel_Agency/index.html",
+    "main.b89d2a33.css.map": "/Travel_Agency/static/css/main.b89d2a33.css.map",
+    "main.1eddf111.js.map": "/Travel_Agency/static/js/main.1eddf111.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b89d2a33.css",
+    "static/js/main.1eddf111.js"
+  ]
+}
