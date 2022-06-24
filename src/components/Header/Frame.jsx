@@ -34,10 +34,12 @@ const Frame = () => {
           subWord=" 12 January 2022"
         />
 
-        <button className=" w-[332px] mt-[6px] lg:w-[213px] h-[64px] bg-[#3E86F5] rounded-xl flex  items-center justify-center gap-2 text-[#fff] text-[16px] leading-[24px] font-[600]">
-          Book Trip
-          <RiPlaneLine className="rotate-[90deg]" />
-        </button>
+        <div className="w-full flex items-center justify-center">
+          <button className=" w-[332px] mt-[6px] lg:w-[213px] h-[64px] bg-[#3E86F5] rounded-xl flex  items-center justify-center gap-2 text-[#fff] text-[16px] leading-[24px] font-[600]">
+            Book Trip
+            <RiPlaneLine className="rotate-[90deg]" />
+          </button>
+        </div>
       </div>
     </div>
   );

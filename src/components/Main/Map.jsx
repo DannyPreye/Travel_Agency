@@ -6,14 +6,14 @@ import map from "../../images/map.png";
 import arrow from "../../images/Arrow.png";
 const Map = () => {
   return (
-    <div className="h-[693px] bg-[#F8F9FC] relative  ">
+    <div className="h-[1802px] lg:h-[693px] w-[428px] bg-[#F8F9FC] relative  ">
       <LazyLoadImage
         src={map}
         alt="map"
-        className="absolute top-[178.69px] w-[1400px] left-[40px] h-[491.8px]"
+        className="absolute top-[178.69px]  lg:w-[1400px] left-[40px] h-[491.8px]"
       />
-      <div className=" w-fit relative top-[118px] left-[50%] translate-x-[-50%]">
-        <h3 className="w-[791px] h-[108px] text-center  text-[40px] font-[40px] leading-[135%] font-[600]">
+      <div className=" w-fit relative top-[118px] lg:left-[50%] lg:translate-x-[-50%] lg:block grid place-items-center">
+        <h3 className="w-[351px] lg:w-[791px] h-[108px] text-center text-[24px] lg:text-[40px] font-[40px] leading-[135%] font-[600]">
           Creating the best <span className="text-[#3E86F5]">ice-cold!</span>{" "}
           experience you would never forget.
         </h3>

@@ -22,7 +22,7 @@ const FrameOptions = ({ FirstIcon, SecondIcon, mainWord, subWord, red }) => {
           </div>
         </div>
       </div>
-      <div className="lg:flex bg-red-900 hidden items-center mt-[12px] gap-2 w-fit ">
+      <div className="lg:flex  hidden items-center mt-[12px] gap-2 w-fit ">
         <h4 className="h-[27px] text-[18px] font-[500] text-[#000] leading-[24px]">
           {subWord}
         </h4>
