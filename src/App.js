@@ -1,17 +1,22 @@
 
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
+import { lazy, Suspense } from "react"
 
+import Loading from "./components/Loading/Loading"
+
+const Header = lazy(() => import("./components/Header/Header"))
+const Main = lazy(() => import("./components/Main/Main"))
+const Footer = lazy(() => import("./components/Footer/Footer"))
 
 function App() {
 
 
   return (
     <div >
-      <Header />
-      <Main />
-      <Footer />
+      <Suspense fallback={<Loading />}>
+        <Header />
+        <Main />
+        <Footer />
+      </Suspense>
     </div>
   );
 }

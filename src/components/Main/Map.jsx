@@ -1,10 +1,13 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import React from "react";
 import map from "../../images/map.png";
 import arrow from "../../images/Arrow.png";
 const Map = () => {
   return (
     <div className="h-[693px] bg-[#F8F9FC] relative  ">
-      <img
+      <LazyLoadImage
         src={map}
         alt="map"
         className="absolute top-[178.69px] w-[1400px] left-[40px] h-[491.8px]"
@@ -19,7 +22,7 @@ const Map = () => {
           destination in the world with us.
         </p>
 
-        <img
+        <LazyLoadImage
           src={arrow}
           alt="arrow"
           className="absolute left-[50%] translate-x-[50%] top-[345px]"

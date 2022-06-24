@@ -1,5 +1,5 @@
 import React from "react";
-import passes from "../../images/passes.jpg";
+import passes from "../../images/Optimized-passes.jpg";
 const Views = () => {
   return (
     <div className="h-[750px] w-screen relative">

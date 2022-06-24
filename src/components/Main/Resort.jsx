@@ -1,8 +1,8 @@
 import React from "react";
-import island from "../../images/resort/resort-island.jpg";
-import nature from "../../images/resort/resort-nature.jpg";
-import sk from "../../images/resort/resort-sk.jpg";
-import winter from "../../images/resort/resort-winter.jpg";
+import island from "../../images/resort/Optimized-resort-island.jpg";
+import nature from "../../images/resort/Optimized-resort-nature.jpg";
+import sk from "../../images/resort/Optimized-resort-sk.jpg";
+import winter from "../../images/resort/Optimized-resort-winter.jpg";
 
 const Resort = () => {
   return (
