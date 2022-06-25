@@ -8,7 +8,7 @@ import FrameOptions from "./FrameOptions";
 const Frame = () => {
   return (
     <div className="absolute bg-[#fff] w-[90%] h-[525px] lg:w-[1200px] grid place-items-center lg:h-[140px] top-[467px] lg:top-[714px] left-[49%] translate-x-[-50%] rounded-[16px] frame">
-      <div className="w-[90%] p-10 gap-[27px lg:gap-[50px] lg:justify-around  flex lg:flex-row flex-col h-full items-center relative">
+      <div className="w-[90%] p-10 gap-[27px] lg:gap-[50px] lg:justify-around  flex lg:flex-row flex-col h-full items-center relative">
         <FrameOptions
           FirstIcon={HiOutlineLocationMarker}
           SecondIcon={FaChevronDown}
