@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <div >
+    <div className="">
       <Suspense fallback={<Loading />}>
         <Header />
         <Main />

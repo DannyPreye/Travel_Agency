@@ -4,32 +4,39 @@ import nature from "../../images/resort/Optimized-resort-nature.jpg";
 import sk from "../../images/resort/Optimized-resort-sk.jpg";
 import winter from "../../images/resort/Optimized-resort-winter.jpg";
 
+import ResortCard from "./ResortCard";
+
 const Resort = () => {
   return (
-    <div className="h-[1895px] w-screen ">
-      <div className=" flex gap-[32px] relative left-[225px] top-[85px]">
+    <div className=" h-fit lg:h-[1895px] w-screen ">
+      <div className=" flex lg:flex-row flex-col gap-[32px] lg:relative lg:left-[225px] top-[85px]">
+        <h1 className="lg:hidden block w-[302px] ml-[33px] lg:w-[570px] mt-[71px] lg:mt-0 h-[130px] text-[24px] lg:text-[48px] font-[600] leading-[135%] tracking-[-0.02em]">
+          The best resorts to chill and relax
+        </h1>
         <div className="flex flex-col items-center gap-[32px]">
-          <h1 className="w-[570px] h-[130px] text-[48px] font-[600] leading-[135%] tracking-[-0.02em]">
+          <h1 className="lg:block hidden w-[302px] lg:w-[570px] mt-[71px] lg:mt-0 h-[130px] text-[24px] lg:text-[48px] font-[600] leading-[135%] tracking-[-0.02em]">
             The best resorts to chill and relax
           </h1>
-          <div className="w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
+          <ResortCard img={nature} />
+          {/* <div className="w-[90%] lg:w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
             <img
               src={nature}
               alt="nature resort"
               className=" w-full h-full  absolute top-0 left-0 z-[1000]"
             />
-          </div>
-
-          <div className="w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
+          </div> */}
+          <ResortCard img={island} />
+          {/* <div className="w-[90%] lg:w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
             <img
               src={island}
               alt="nature resort"
               className=" w-full h-full  absolute top-0 left-0 z-[1000]"
             />
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col items-center gap-[32px]">
-          <div className="w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
+          <ResortCard img={winter} />
+          {/* <div className="w-[90%] lg:w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full z-[100] winter"></div>
             <img
               src={winter}
@@ -49,15 +56,15 @@ const Resort = () => {
                 Book Now
               </button>
             </div>
-          </div>
-
-          <div className="w-[484px] h-[711px] rounded-[20px]   relative overflow-hidden">
+          </div> */}
+          <ResortCard img={sk} />
+          {/* <div className="w-[90%] lg:w-[484px] h-[711px] rounded-[20px]   relative overflow-hidden">
             <img
               src={sk}
               alt="nature resort"
               className=" w-full h-full  absolute top-0 left-0 z-[1000]"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
