@@ -1,8 +1,15 @@
 import React from "react";
 
-const FrameOptions = ({ FirstIcon, SecondIcon, mainWord, subWord, red }) => {
+const FrameOptions = ({
+  FirstIcon,
+  SecondIcon,
+  mainWord,
+  subWord,
+  red,
+  check,
+}) => {
   return (
-    <div className=" w-full lg:w-fit lg:mt-0  relative ">
+    <div className=" w-full  lg:mt-0  relative ">
       {/* ********************************* Location *********************************************  */}
       <div className="flex  lg:items-center justify-start relative">
         <div className="w-[54.68px] h-[56px] rounded-full grid place-items-center lg:block lg:bg-transparent lg:rounded-none bg-[#ECF3FE] lg:h-fit lg:w-fit">
@@ -22,11 +29,15 @@ const FrameOptions = ({ FirstIcon, SecondIcon, mainWord, subWord, red }) => {
           </div>
         </div>
       </div>
-      <div className="lg:flex  hidden items-center mt-[12px] gap-2 w-fit ">
-        <h4 className="h-[27px] text-[18px] font-[500] text-[#000] leading-[24px]">
+      <div className="lg:flex  hidden items-center mt-[12px]  w-fit ">
+        <h4
+          className={`h-[27px] ${
+            check === true ? "lg:w-[146px]" : "lg:w-fit"
+          }text-[18px] font-[500] text-[#000] leading-[24px]`}
+        >
           {subWord}
         </h4>
-        <SecondIcon className="w-[12px] h-[12px] mx-[4px] relative -left-3 " />
+        <SecondIcon className="w-[12px] h-[12px] relative  " />
       </div>
     </div>
   );
