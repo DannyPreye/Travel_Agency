@@ -54,14 +54,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className=" flex gap-[21px] mt-[120px]">
-        <p className="w-fit h-[25px]   text-[12px] font-[500] leading-[209%]">
-          Privacy Policy
-        </p>
-        <p className="w-fit h-[25px] text-[12px]  font-[500] leading-[209%]">
-          Terms of Use
-        </p>
-      </div>
     </div>
   );
 };

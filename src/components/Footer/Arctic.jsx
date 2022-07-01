@@ -8,8 +8,8 @@ const Arctic = () => {
   return (
     <div>
       <div className="mt-[80px]  flex flex-col gap-2">
-        <div className="w-[40px] h-[40px] flex flex-cols items-center justify-center rounded-full border-dashed border-2  border-[ #BEBEBE]">
-          <MdAirplanemodeActive className="rotate-45 text-xl text-[#3E86F5]" />
+        <div className="w-[40px] h-[40px] grid place-items-center rounded-full relative border-dashed border-[0.5px] p-4 border-[#bebebe]">
+          <MdAirplanemodeActive className="rotate-45 text-xl text-[#3E86F5] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
         </div>
         <div className="grid gap-2">
           <h1 className="w-[122px] h-[26px] font-[600] leading-[30px] text-[20px] tracking-[-0.02em]">
@@ -30,11 +30,6 @@ const Arctic = () => {
             <FaInstagramSquare className="text-[#3E86F5]" />
           </div>
         </div>
-      </div>
-      <div className="mt-[120px] ">
-        <p className="w-[326px] h-[23px] text-[16px] leading-[209%] font-[500]">
-          © 2022 Arctic Travels - All right reserved.
-        </p>
       </div>
     </div>
   );
