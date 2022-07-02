@@ -1,5 +1,5 @@
 
-import { lazy, Suspense } from "react"
+import { lazy, } from "react"
 
 import Loading from "./components/Loading/Loading"
 
@@ -12,11 +12,9 @@ function App() {
 
   return (
     <div className="">
-      <Suspense fallback={<Loading />}>
-        <Header />
-        <Main />
-        <Footer />
-      </Suspense>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

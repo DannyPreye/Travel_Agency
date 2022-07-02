@@ -3,6 +3,7 @@ import Map from "./Map";
 import Regions from "./Regions";
 import Resort from "./Resort";
 import Views from "./Views";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (

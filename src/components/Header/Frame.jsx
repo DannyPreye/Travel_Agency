@@ -4,6 +4,7 @@ import { BsCalendar, BsCalendar4, BsPerson } from "react-icons/bs";
 import { FaChevronDown } from "react-icons/fa";
 import { RiPlaneLine } from "react-icons/ri";
 import FrameOptions from "./FrameOptions";
+import { motion } from "framer-motion";
 
 const Frame = () => {
   return (
@@ -37,10 +38,17 @@ const Frame = () => {
         />
 
         <div className="w-full flex items-center justify-center">
-          <button className=" w-[332px] mt-[6px] lg:w-[213px] h-[64px] bg-[#3E86F5] rounded-xl flex  items-center justify-center gap-2 text-[#fff] text-[16px] leading-[24px] font-[600]">
+          <motion.button
+            whileInView={{ y: 0, opacity: 1 }}
+            whileTap={{ scale: 1.1 }}
+            whileHover={{ opacity: 0.8 }}
+            initial={{ y: 100, opacity: 0 }}
+            transition={{ type: "spring", stiffness: 60 }}
+            className=" w-[332px] mt-[6px] lg:w-[213px] h-[64px] bg-[#3E86F5] rounded-xl flex  items-center justify-center gap-2 text-[#fff] text-[16px] leading-[24px] font-[600]"
+          >
             Book Trip
             <RiPlaneLine className="rotate-[90deg]" />
-          </button>
+          </motion.button>
         </div>
       </div>
     </div>

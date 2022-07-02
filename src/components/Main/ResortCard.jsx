@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const ResortCard = ({ img }) => {
   return (
-    <div className="w-[90%] lg:w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0.5, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ type: "spring", stiffness: 60 }}
+      className="w-[90%] lg:w-[484px] h-[711px] rounded-[20px]  relative overflow-hidden"
+    >
       <div className="absolute top-0 left-0 w-full h-full z-[100] winter"></div>
       <img
         src={img}
@@ -22,7 +28,7 @@ const ResortCard = ({ img }) => {
           Book Now
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

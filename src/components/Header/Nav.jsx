@@ -1,16 +1,27 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import { motion } from "framer-motion";
-
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { MdAirplanemodeActive } from "react-icons/md";
 import { RiMenu3Fill, RiCloseCircleLine } from "react-icons/ri";
 
 const Nav = () => {
   const menuSlide = useRef();
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+
+  const squareVariants = {
+    visible: { y: 0, transition: { type: "spring", stiffness: 40 } },
+    hidden: { y: 100 },
+  };
 
   const [click, setClick] = useState();
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
 
   return (
     <nav className="lg:flex justify-between w-screen lg:w-[90%] z-50  py-5 relative ">
@@ -30,9 +41,10 @@ const Nav = () => {
             <h3 className="text-[14px] font-[400] text-[#fff]">Language</h3>
           </div>
         </div>
+
         <RiMenu3Fill
           onClick={() => setClick(true)}
-          className="block lg:hidden w-[55.29px] h-[39.57px] text-[#fff]"
+          className="block lg:hidden w-[55.29px] h-[39.57px] text-[#fff] cursor-pointer"
         />
       </div>
       <button className=" hidden py-[14px] px-[30px] lg:grid place-items-center border-2 bg-[#fff] rounded-xl w-[151px] h-[48px] text-[#3E86F5] font-[600] text-[14px]">
@@ -42,9 +54,8 @@ const Nav = () => {
         className={`absolute h-[1187px]  filter ${
           click ? "block" : "hidden"
         } w-screen  top-0 left-0 z-[10000]`}
-        initial={{ y: -1000 }}
-        animate={{ y: 0 }}
-        transition={{ ease: "easeIn", duration: 3 }}
+        animate={click ? { x: 0 } : { x: 1000 }}
+        transition={{ type: "spring", stiffness: 39 }}
       >
         <div className="w-full h-full relative">
           <div

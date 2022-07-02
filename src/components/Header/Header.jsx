@@ -2,6 +2,7 @@ import React from "react";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { motion } from "framer-motion";
 
 import Nav from "./Nav";
 import bgImage from "../../images/Optimized-mainBg.jpg";
@@ -11,7 +12,11 @@ import Icons from "./Icons";
 
 const Header = () => {
   return (
-    <header className=" bg-[#F8F9FC] h-[1023px]  -z-50">
+    <motion.header
+      className=" bg-[#F8F9FC] h-[1023px]  -z-50"
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0.5 }}
+    >
       <div className="w-screen relative lg:h-[780px] h-[618px] flex flex-col items-center z-10">
         <div className="absolute w-full h-full -z-10 bg  "></div>
         <LazyLoadImage
@@ -24,7 +29,7 @@ const Header = () => {
         <Frame />
       </div>
       <Icons />
-    </header>
+    </motion.header>
   );
 };
 

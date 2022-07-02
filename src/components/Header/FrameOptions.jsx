@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const FrameOptions = ({
   FirstIcon,
   SecondIcon,
@@ -9,7 +9,12 @@ const FrameOptions = ({
   check,
 }) => {
   return (
-    <div className=" w-full  lg:mt-0  relative ">
+    <motion.div
+      whileInView={{ y: 0, opacity: 1 }}
+      initial={{ y: 100, opacity: 0 }}
+      transition={{ type: "spring", stiffness: 60 }}
+      className=" w-full  lg:mt-0  relative "
+    >
       {/* ********************************* Location *********************************************  */}
       <div className="flex  lg:items-center justify-start relative">
         <div className="w-[54.68px] h-[56px] rounded-full grid place-items-center lg:block lg:bg-transparent lg:rounded-none bg-[#ECF3FE] lg:h-fit lg:w-fit">
@@ -39,7 +44,7 @@ const FrameOptions = ({
         </h4>
         <SecondIcon className="w-[12px] h-[12px] relative  " />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
