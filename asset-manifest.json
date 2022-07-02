@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Travel_Agency/static/css/main.bd53d245.css",
-    "main.js": "/Travel_Agency/static/js/main.6913dae2.js",
+    "main.css": "/Travel_Agency/static/css/main.290d056b.css",
+    "main.js": "/Travel_Agency/static/js/main.8a6ead08.js",
     "static/css/829.c38d2592.chunk.css": "/Travel_Agency/static/css/829.c38d2592.chunk.css",
-    "static/js/829.ad1714ad.chunk.js": "/Travel_Agency/static/js/829.ad1714ad.chunk.js",
+    "static/js/829.6e54f92f.chunk.js": "/Travel_Agency/static/js/829.6e54f92f.chunk.js",
     "static/css/557.c38d2592.chunk.css": "/Travel_Agency/static/css/557.c38d2592.chunk.css",
-    "static/js/557.8bacdabf.chunk.js": "/Travel_Agency/static/js/557.8bacdabf.chunk.js",
-    "static/js/550.0d4d249e.chunk.js": "/Travel_Agency/static/js/550.0d4d249e.chunk.js",
-    "static/js/318.1efa5369.chunk.js": "/Travel_Agency/static/js/318.1efa5369.chunk.js",
-    "static/js/36.5687773c.chunk.js": "/Travel_Agency/static/js/36.5687773c.chunk.js",
-    "static/js/120.e2c49442.chunk.js": "/Travel_Agency/static/js/120.e2c49442.chunk.js",
+    "static/js/557.80797a5e.chunk.js": "/Travel_Agency/static/js/557.80797a5e.chunk.js",
+    "static/js/550.3e816446.chunk.js": "/Travel_Agency/static/js/550.3e816446.chunk.js",
+    "static/js/318.da4a7992.chunk.js": "/Travel_Agency/static/js/318.da4a7992.chunk.js",
+    "static/js/36.704cae7c.chunk.js": "/Travel_Agency/static/js/36.704cae7c.chunk.js",
+    "static/js/91.f2249811.chunk.js": "/Travel_Agency/static/js/91.f2249811.chunk.js",
     "static/media/Optimized-mountain_fuji (2).jpg": "/Travel_Agency/static/media/Optimized-mountain_fuji (2).62bc5f33a72312e6064d.jpg",
     "static/media/Optimized-resort-nature.jpg": "/Travel_Agency/static/media/Optimized-resort-nature.b2db07e9adead24186d6.jpg",
     "static/media/Optimized-resort-sk.jpg": "/Travel_Agency/static/media/Optimized-resort-sk.2220fc6dd2e911fedda2.jpg",
@@ -21,19 +21,19 @@
     "static/media/Optimized-resort-winter.jpg": "/Travel_Agency/static/media/Optimized-resort-winter.075f538046483c699ba4.jpg",
     "static/media/map.png": "/Travel_Agency/static/media/map.7ed13137d13ce3d95647.png",
     "index.html": "/Travel_Agency/index.html",
-    "main.bd53d245.css.map": "/Travel_Agency/static/css/main.bd53d245.css.map",
-    "main.6913dae2.js.map": "/Travel_Agency/static/js/main.6913dae2.js.map",
+    "main.290d056b.css.map": "/Travel_Agency/static/css/main.290d056b.css.map",
+    "main.8a6ead08.js.map": "/Travel_Agency/static/js/main.8a6ead08.js.map",
     "829.c38d2592.chunk.css.map": "/Travel_Agency/static/css/829.c38d2592.chunk.css.map",
-    "829.ad1714ad.chunk.js.map": "/Travel_Agency/static/js/829.ad1714ad.chunk.js.map",
+    "829.6e54f92f.chunk.js.map": "/Travel_Agency/static/js/829.6e54f92f.chunk.js.map",
     "557.c38d2592.chunk.css.map": "/Travel_Agency/static/css/557.c38d2592.chunk.css.map",
-    "557.8bacdabf.chunk.js.map": "/Travel_Agency/static/js/557.8bacdabf.chunk.js.map",
-    "550.0d4d249e.chunk.js.map": "/Travel_Agency/static/js/550.0d4d249e.chunk.js.map",
-    "318.1efa5369.chunk.js.map": "/Travel_Agency/static/js/318.1efa5369.chunk.js.map",
-    "36.5687773c.chunk.js.map": "/Travel_Agency/static/js/36.5687773c.chunk.js.map",
-    "120.e2c49442.chunk.js.map": "/Travel_Agency/static/js/120.e2c49442.chunk.js.map"
+    "557.80797a5e.chunk.js.map": "/Travel_Agency/static/js/557.80797a5e.chunk.js.map",
+    "550.3e816446.chunk.js.map": "/Travel_Agency/static/js/550.3e816446.chunk.js.map",
+    "318.da4a7992.chunk.js.map": "/Travel_Agency/static/js/318.da4a7992.chunk.js.map",
+    "36.704cae7c.chunk.js.map": "/Travel_Agency/static/js/36.704cae7c.chunk.js.map",
+    "91.f2249811.chunk.js.map": "/Travel_Agency/static/js/91.f2249811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd53d245.css",
-    "static/js/main.6913dae2.js"
+    "static/css/main.290d056b.css",
+    "static/js/main.8a6ead08.js"
   ]
 }
