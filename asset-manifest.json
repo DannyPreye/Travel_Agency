@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Travel_Agency/static/css/main.290d056b.css",
-    "main.js": "/Travel_Agency/static/js/main.8a6ead08.js",
+    "main.js": "/Travel_Agency/static/js/main.71140ea3.js",
     "static/css/829.c38d2592.chunk.css": "/Travel_Agency/static/css/829.c38d2592.chunk.css",
     "static/js/829.6e54f92f.chunk.js": "/Travel_Agency/static/js/829.6e54f92f.chunk.js",
     "static/css/557.c38d2592.chunk.css": "/Travel_Agency/static/css/557.c38d2592.chunk.css",
-    "static/js/557.80797a5e.chunk.js": "/Travel_Agency/static/js/557.80797a5e.chunk.js",
+    "static/js/557.8a33423c.chunk.js": "/Travel_Agency/static/js/557.8a33423c.chunk.js",
     "static/js/550.3e816446.chunk.js": "/Travel_Agency/static/js/550.3e816446.chunk.js",
     "static/js/318.da4a7992.chunk.js": "/Travel_Agency/static/js/318.da4a7992.chunk.js",
     "static/js/36.704cae7c.chunk.js": "/Travel_Agency/static/js/36.704cae7c.chunk.js",
@@ -22,11 +22,11 @@
     "static/media/map.png": "/Travel_Agency/static/media/map.7ed13137d13ce3d95647.png",
     "index.html": "/Travel_Agency/index.html",
     "main.290d056b.css.map": "/Travel_Agency/static/css/main.290d056b.css.map",
-    "main.8a6ead08.js.map": "/Travel_Agency/static/js/main.8a6ead08.js.map",
+    "main.71140ea3.js.map": "/Travel_Agency/static/js/main.71140ea3.js.map",
     "829.c38d2592.chunk.css.map": "/Travel_Agency/static/css/829.c38d2592.chunk.css.map",
     "829.6e54f92f.chunk.js.map": "/Travel_Agency/static/js/829.6e54f92f.chunk.js.map",
     "557.c38d2592.chunk.css.map": "/Travel_Agency/static/css/557.c38d2592.chunk.css.map",
-    "557.80797a5e.chunk.js.map": "/Travel_Agency/static/js/557.80797a5e.chunk.js.map",
+    "557.8a33423c.chunk.js.map": "/Travel_Agency/static/js/557.8a33423c.chunk.js.map",
     "550.3e816446.chunk.js.map": "/Travel_Agency/static/js/550.3e816446.chunk.js.map",
     "318.da4a7992.chunk.js.map": "/Travel_Agency/static/js/318.da4a7992.chunk.js.map",
     "36.704cae7c.chunk.js.map": "/Travel_Agency/static/js/36.704cae7c.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.290d056b.css",
-    "static/js/main.8a6ead08.js"
+    "static/js/main.71140ea3.js"
   ]
 }
