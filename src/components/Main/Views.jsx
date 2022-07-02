@@ -1,8 +1,14 @@
 import React from "react";
 import passes from "../../images/Optimized-passes.jpg";
+import { motion } from "framer-motion";
 const Views = () => {
   return (
-    <div className="lg:mt-0 mt-[124px] h-[409px] lg:h-[750px] w-screen relative">
+    <motion.div
+      intial={{ opacity: 0.4 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      className="lg:mt-0 mt-[124px] h-[409px] lg:h-[750px] w-screen relative"
+    >
       <div className="w-full h-full absolute top-0 left-0 z-[100] view"></div>
       <img
         src={passes}
@@ -17,7 +23,7 @@ const Views = () => {
           View Passes
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
